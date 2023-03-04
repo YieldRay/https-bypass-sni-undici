@@ -1,0 +1,16 @@
+{
+    "name": "https-bypass-sni-undici",
+    "version": "0.1.0",
+    "main": "lib/main.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "YieldRay",
+    "license": "MIT",
+    "peerDependencies": {
+        "undici": "^5.20.0"
+    },
+    "devDependencies": {
+        "@types/node": "^18.14.6"
+    }
+}
