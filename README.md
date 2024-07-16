@@ -7,7 +7,7 @@ This library ships a `fetch` function by using `undici`
 default DoH server is <https://1.1.1.1/dns-query>
 
 ```js
-import fetchX from "https-bypass-sni-undici";
+import { fetchX } from "https-bypass-sni-undici";
 const res = await fetchX("https://i.pximg.net");
 const html = await res.text();
 console.log(html);
@@ -23,7 +23,7 @@ console.log(html);
 
 ```js
 // customize DoH server or skip DoH resolve by providing an IP
-import fetchX from "https-bypass-sni-undici";
+import { fetchX } from "https-bypass-sni-undici";
 const res = await fetchX("https://i.pximg.net", {
     ip: "210.140.139.133",
     dohServer: "https://1.1.1.1/dns-query",

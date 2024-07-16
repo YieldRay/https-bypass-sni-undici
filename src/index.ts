@@ -45,5 +45,4 @@ export function createFetch(dohServer?: string) {
     };
 }
 
-const fetchX = createFetch();
-export { fetchX as default };
+export const fetchX = createFetch();
